@@ -482,6 +482,7 @@ func New(opts ...Option) *App {
 	app.container = dig.New(
 		dig.DeferAcyclicVerification(),
 		dig.DryRun(app.validate),
+		dig.MaxConcurrency(10),
 	)
 
 	for _, m := range app.modules {

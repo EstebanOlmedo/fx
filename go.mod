@@ -15,6 +15,8 @@ require (
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	go.uber.org/atomic v1.6.0 // indirect
+	go.uber.org/atomic v1.9.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace go.uber.org/dig => github.com/xandris/dig v1.13.1-0.20220812212306-162e85fd0940

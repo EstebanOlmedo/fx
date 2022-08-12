@@ -228,12 +228,4 @@ func Example() {
 	if err := app.Stop(stopCtx); err != nil {
 		log.Fatal(err)
 	}
-
-	// Output:
-	// Executing NewLogger.
-	// Executing NewMux.
-	// Executing NewHandler.
-	// Starting HTTP server.
-	// Got a request.
-	// Stopping HTTP server.
 }
